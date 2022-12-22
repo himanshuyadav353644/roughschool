@@ -1,0 +1,133 @@
+/* CSS Reset  */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+#navbar{
+    background: #01416f;
+    border: 2px solid rgb(214, 204, 12);
+    /* height: 25%; */
+    /* padding: 25px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#namelogo{
+    color: white;
+    border: 2px solid red;
+    height: 50%;
+}
+#namelogo h2{
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#menu{
+    border: 2px solid gold;
+    height: 50%;
+    /* margin: 10px; */
+    /* margin-left: 90%; */
+    /* padding: 10px; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+
+}
+
+#topmenu{
+    border: 2px solid green;
+    height: 35px;
+    background: #9fd8ed;
+    /* margin: 5px; */
+    margin-bottom: 5px;
+    border-radius: 0 0 0 13px;
+    
+
+}
+#topmenu ul{
+    display: flex;
+    /* justify-content: right; */
+    flex-direction: row;
+    
+
+}
+#topmenu ul li{
+    list-style: none;
+    margin: 10px;
+
+}
+#topmenu ul li a{
+    text-decoration: none;
+    display: block; 
+    color: black;
+}
+#topmenu ul li a:hover{
+     /* background-color: rgb(210, 244, 244); */
+}
+#topmenu ul li ul{
+    background-color: #FF9933; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    margin-right: -20px ;
+    padding: 0px;
+    /* content-visibility: hidden; */
+}
+#topmenu ul li ul li{
+    display: none;
+    /* background-color: rgb(240, 165, 99); */
+    margin: 5px;
+}
+#topmenu ul li:hover ul li{
+    display: block; 
+}
+
+#botmenu{
+    border: 2px solid rgb(28, 182, 139); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#botmenu ul{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+#botmenu ul li{
+     list-style: none;
+     margin: 10px;
+     margin-left: 25px;
+     font-size: 20px;
+     font-family: 'Baloo Bhai', cursive;
+
+}
+#botmenu ul li a{
+    text-decoration: none;
+    display: block; 
+    color: white;
+}
+#donate{ 
+    background: #FF9933; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 3px;
+}
+#donate :hover{
+    background:#01416f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+}
